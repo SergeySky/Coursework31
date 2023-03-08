@@ -1,0 +1,534 @@
+2023-03-08 12:39:29,338 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:42:11,888 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:43:55,172 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:44:40,422 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:44:56,123 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:46:29,204 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:37,772 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:37,995 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:38,013 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:38,035 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:38,058 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:38,075 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:38,094 [ERROR] Exception on /api/posts/2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:48:38,112 [ERROR] Exception on /api/posts/3 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:50,730 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:50,918 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:50,935 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:50,988 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:51,006 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:51,021 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:51,036 [ERROR] Exception on /api/posts/2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:51:51,060 [ERROR] Exception on /api/posts/3 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 79, in second_api_endpoint
+    post_data = get_post_by_pk(postid)  # в эту переменную передаем конкретный пост по его идентификатору
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 56, in get_post_by_pk
+    all_posts = get_posts_all()  # обращаемся к функции, которая покажет все посты
+                ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:52:19,611 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2023-03-08 12:53:50,973 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\venv\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\app.py", line 71, in first_api_endpoint
+    posts_data = get_posts_all()  # в эту переменную передаем все посты
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Табачный Мастер\PycharmProjects\Coursework3\utils.py", line 6, in get_posts_all
+    with open('data/posts.json', 'r', encoding='utf-8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
